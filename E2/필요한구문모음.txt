@@ -1,0 +1,51 @@
+int num = 4;
+    auto it = find(v.begin(), v.end(), num);
+    if (it == v.end()) {
+        cout << num << "은 찾을 수 없습니다.\n";
+    }
+    else {
+        cout << num << "는 존재하며 인덱스는 " << it - v.begin() << " 입니다.\n";
+    }
+
+
+
+	// 폰트 설정하는 구문
+	// 첫번재 매개변수는 글자크기
+	hFont = CreateFont(50, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, L"Jokerman");
+	hOldFont = (HFONT)SelectObject(m_Base.dc, hFont);
+
+
+	// 화면에 글자 출력하기
+	void Game::DrawFrame()
+{
+	if (m_Frame.bTrigger == FALSE) return;
+
+	WCHAR fps[50];
+	wsprintf(fps, L"FPS = %d", m_Frame.FrameRate);
+	size_t size;
+	StringCchLength(fps, 50,&size);
+
+	TextOut(m_Base.dc, 10, 530, fps, (int)size);
+
+}
+
+
+
+// 이중 프린팅으로 입체 텍스트 출력하기
+void Game::DrawScore()
+{
+	size_t size = 0; 
+	wsprintf(m_chScore, L"SCORE : %d",m_nScore * 100);
+	StringCchLength(m_chScore, STRINGSIZE, &size);
+
+	//두번찍어서 입체감있게 
+
+	SetBkMode(m_Base.dc, TRANSPARENT);
+
+	SetTextColor(m_Base.dc, RGB(0, 0, 0));
+	TextOut(m_Base.dc, 10, 10, m_chScore, (int)size);
+
+	SetTextColor(m_Base.dc, RGB(255, 255, 255));
+	TextOut(m_Base.dc, 8, 8, m_chScore, (int)size);
+//
+}

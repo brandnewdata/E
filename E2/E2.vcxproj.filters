@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. PreDefines">
+      <UniqueIdentifier>{0cb6c7b4-4a4c-4a56-9678-37bd0df8a3d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{380b3bb9-afb4-4171-b546-a5823b4f1cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="88. Resources">
+      <UniqueIdentifier>{e22f674f-4532-4fd9-a11a-93fd9c00be91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="88. Resources\BaseResources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="77. Data Structure">
+      <UniqueIdentifier>{a580c315-f9a2-42de-b78b-bb95e0885de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. ComponentSystemBase">
+      <UniqueIdentifier>{d4ce4205-14f3-4771-8bcc-01ed1d3e9d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems">
+      <UniqueIdentifier>{a44b377b-72e4-4c11-b1a7-9c22cfb39c48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Entity">
+      <UniqueIdentifier>{e90ece83-1913-44a2-88db-fd27e3b75897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Input">
+      <UniqueIdentifier>{f1df3221-bc22-4700-ae58-521dd1e24788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Timer">
+      <UniqueIdentifier>{560beb20-fa90-4830-bffa-2a2f8166031e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Table">
+      <UniqueIdentifier>{b1828025-afc5-49e1-a3fc-107844e2eff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Network">
+      <UniqueIdentifier>{691035a5-6c75-4a6d-839a-26f9b2d8bd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Movement">
+      <UniqueIdentifier>{9fcdc4fe-2908-4479-b1e8-e51980511faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Collision">
+      <UniqueIdentifier>{41fb3d93-b4d0-45cb-a442-9e308483b8e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Collision\CollisionTypes">
+      <UniqueIdentifier>{9c9c46b6-5db1-45e2-aedf-ff68508d8db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Render2D">
+      <UniqueIdentifier>{62395ae9-c16d-4580-9b4d-2be640403458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\UnitController">
+      <UniqueIdentifier>{212f7ef9-e265-42bc-aff8-e3103704e975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserComponentSystems">
+      <UniqueIdentifier>{07fe2728-5f74-4d4d-9191-4c5874b00a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserComponentSystems\Login">
+      <UniqueIdentifier>{a9c69448-60ea-4cde-a509-5ad833ab73da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserComponentSystems\GameState">
+      <UniqueIdentifier>{93e788e2-2a43-4b62-a361-426647117fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. UserComponentSystems\UnitStatus">
+      <UniqueIdentifier>{502d221a-402c-46b8-a6bd-98c2773992ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\MultiThreading">
+      <UniqueIdentifier>{e01f9fe0-07fc-4b75-8f85-b556f2e3ccef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\MultiThreading\Lock">
+      <UniqueIdentifier>{551b9d63-72ae-4996-b855-ca2063a58020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\MultiThreading\JobQueue">
+      <UniqueIdentifier>{aa30fb93-aaa9-4c07-b3c0-da22b362f098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. PreDefines\1. Bolierplate">
+      <UniqueIdentifier>{23139bec-f4d7-4ee5-9cee-c7b854423758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. PreDefines\2. CustomHeaders">
+      <UniqueIdentifier>{4aad3a03-820b-43a9-8659-f57cb5c72640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. PreDefines\3. Predefines">
+      <UniqueIdentifier>{46ccf561-cf59-41cf-8c9a-0eadf8dc0236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. PreDefines\4. ExModules">
+      <UniqueIdentifier>{ec2dbbcb-9f2d-403a-a00e-e13c55522a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Table\TableFiles">
+      <UniqueIdentifier>{d98f8fd5-c41b-4b81-bf96-fa97e4609723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\World{중지}">
+      <UniqueIdentifier>{bba1cc19-3e89-4348-9f97-122ac1965314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\World{중지}\LevelSystem">
+      <UniqueIdentifier>{c905b286-e98b-48bc-8bc8-198f7dc65050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem">
+      <UniqueIdentifier>{4184bf0f-9684-408f-9076-c2051cb421ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem\LayerSystem">
+      <UniqueIdentifier>{1660abae-19d3-49ea-8cc5-0ec075d5c7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem\LayerSystem\RegionSystem">
+      <UniqueIdentifier>{e6cb9558-e3b2-40ae-9903-8b1582e2622b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\GameRule">
+      <UniqueIdentifier>{9a171bb3-5afb-42cb-bf2c-c54c451730eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. CoreComponentSystems\Level">
+      <UniqueIdentifier>{702536c9-adc5-4adc-8d83-f7a2ec0ebd22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ECollisionManager.h">
+      <Filter>3. CoreComponentSystems\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ECore.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ELayer.h">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem\LayerSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>3. CoreComponentSystems\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="EStage.h">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EStageManager.h">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EInputManager.h">
+      <Filter>3. CoreComponentSystems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="EGameInstance.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitController.h">
+      <Filter>3. CoreComponentSystems\UnitController</Filter>
+    </ClInclude>
+    <ClInclude Include="AIControoller.h">
+      <Filter>3. CoreComponentSystems\UnitController</Filter>
+    </ClInclude>
+    <ClInclude Include="ELevel.h">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>4. UserComponentSystems\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="EEntityManager.h">
+      <Filter>3. CoreComponentSystems\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>3. CoreComponentSystems\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>0. PreDefines\1. Bolierplate</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>0. PreDefines\1. Bolierplate</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEventTypes.h">
+      <Filter>3. CoreComponentSystems\Collision\CollisionTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionOperationType.h">
+      <Filter>3. CoreComponentSystems\Collision\CollisionTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResponTypes.h">
+      <Filter>3. CoreComponentSystems\Collision\CollisionTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionType.h">
+      <Filter>3. CoreComponentSystems\Collision\CollisionTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>4. UserComponentSystems\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="EMovementSystem.h">
+      <Filter>3. CoreComponentSystems\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="Render2DSystem.h">
+      <Filter>3. CoreComponentSystems\Render2D</Filter>
+    </ClInclude>
+    <ClInclude Include="ETableManager.h">
+      <Filter>3. CoreComponentSystems\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="ENetworkMnager.h">
+      <Filter>3. CoreComponentSystems\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBase.h">
+      <Filter>2. ComponentSystemBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stl_datastructure.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MutiThreading.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="EUnitStatus.h">
+      <Filter>4. UserComponentSystems\UnitStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsCommon.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LockMacro.h">
+      <Filter>1. Core\MultiThreading\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="SRWLock.h">
+      <Filter>1. Core\MultiThreading\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="EJob.h">
+      <Filter>1. Core\MultiThreading\JobQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="EJobQueue.h">
+      <Filter>1. Core\MultiThreading\JobQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreTLS.h">
+      <Filter>1. Core\MultiThreading</Filter>
+    </ClInclude>
+    <ClInclude Include="EJobManager.h">
+      <Filter>1. Core\MultiThreading</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonEnums.h">
+      <Filter>0. PreDefines\2. CustomHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>77. Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Predefines.h">
+      <Filter>0. PreDefines\3. Predefines</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystems.h">
+      <Filter>0. PreDefines\4. ExModules</Filter>
+    </ClInclude>
+    <ClInclude Include="EEntityTable.h">
+      <Filter>3. CoreComponentSystems\Table\TableFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="ERender2DComponentTable.h">
+      <Filter>3. CoreComponentSystems\Table\TableFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EGameRuleSystem.h">
+      <Filter>3. CoreComponentSystems\GameRule</Filter>
+    </ClInclude>
+    <ClInclude Include="ELevelManager.h">
+      <Filter>3. CoreComponentSystems\Level</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E2.rc">
+      <Filter>88. Resources\BaseResources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>88. Resources\BaseResources</Filter>
+    </Image>
+    <Image Include="E2.ico">
+      <Filter>88. Resources\BaseResources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ECollisionManager.cpp">
+      <Filter>3. CoreComponentSystems\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ECore.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ELayer.cpp">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem\LayerSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>3. CoreComponentSystems\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="EStage.cpp">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EStageManager.cpp">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem\StageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EInputManager.cpp">
+      <Filter>3. CoreComponentSystems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="EGameInstance.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitController.cpp">
+      <Filter>3. CoreComponentSystems\UnitController</Filter>
+    </ClCompile>
+    <ClCompile Include="AIControoller.cpp">
+      <Filter>3. CoreComponentSystems\UnitController</Filter>
+    </ClCompile>
+    <ClCompile Include="ELevel.cpp">
+      <Filter>3. CoreComponentSystems\World{중지}\LevelSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>4. UserComponentSystems\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="EEntityManager.cpp">
+      <Filter>3. CoreComponentSystems\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ETimer.cpp">
+      <Filter>3. CoreComponentSystems\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>4. UserComponentSystems\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="EMovementSystem.cpp">
+      <Filter>3. CoreComponentSystems\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="Render2DSystem.cpp">
+      <Filter>3. CoreComponentSystems\Render2D</Filter>
+    </ClCompile>
+    <ClCompile Include="ETableManager.cpp">
+      <Filter>3. CoreComponentSystems\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="ENetworkMnager.cpp">
+      <Filter>3. CoreComponentSystems\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemBase.cpp">
+      <Filter>2. ComponentSystemBase</Filter>
+    </ClCompile>
+    <ClCompile Include="EUnitStatus.cpp">
+      <Filter>4. UserComponentSystems\UnitStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="SRWLock.cpp">
+      <Filter>1. Core\MultiThreading\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="EJob.cpp">
+      <Filter>1. Core\MultiThreading\JobQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreTLS.cpp">
+      <Filter>1. Core\MultiThreading</Filter>
+    </ClCompile>
+    <ClCompile Include="EJobManager.cpp">
+      <Filter>1. Core\MultiThreading</Filter>
+    </ClCompile>
+    <ClCompile Include="E2.cpp" />
+    <ClCompile Include="EGameRuleSystem.cpp">
+      <Filter>3. CoreComponentSystems\GameRule</Filter>
+    </ClCompile>
+    <ClCompile Include="ELevelManager.cpp">
+      <Filter>3. CoreComponentSystems\Level</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="가변인자를사용해서복수키입력을받음.txt">
+      <Filter>3. CoreComponentSystems\Input</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
