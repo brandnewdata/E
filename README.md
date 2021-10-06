@@ -1,20 +1,14 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
-
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+---
+멀티스레드 커맨드&이벤트큐 패턴을 적용한 윈도우 플랫폼 프로젝트
+---
+### 잡큐와 스레드풀을 사용하는 커맨드 패턴 구현
+---
+###### 잡아이템(메시지)
+    대상 Entity ID, 대상 Component ID, 수행할 Operation Index를 
+    포함하는 구조체. 
+###### 잡큐
+    C++ std::atomic을 사용하는 스핀락으로 스레드 세이프하게 구현.
+###### 스레드풀
+    윈도우플랫폼의 주소값에 대한 대기 기능으로 세마포어를 구현하고 
+    C++ std::thread와 결합하여 구현. 
